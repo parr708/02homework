@@ -1,0 +1,51 @@
+*{
+    background-attachment: fixed;
+    background-color: rgb(48, 46, 46);
+    font-style:calc(Calibri);
+}
+
+
+.header {
+    color:whitesmoke;
+    text-align: center;
+    font-size: 25;
+    font-style:calc(Calibri);
+
+}
+main {
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+    display:flex;
+    flex-direction:column;
+}
+#about {
+    display:flex;
+    flex-direction:row;
+    justify-content:left;
+    width:100%;
+}
+#about section {
+    width:50%;
+}
+.about {
+    color:whitesmoke;
+}
+#frazier, #nebraska, #hobbies, #books {
+    width:25%;
+    flex-direction:row;
+   
+}
+.details {
+    color:gold;
+ 
+}
+
+img {
+    width: 45%
+    
+}
+
+ul {
+    list-style-type:none;
+}
