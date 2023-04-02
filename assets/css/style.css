@@ -22,18 +22,27 @@ main {
 #about {
     display:flex;
     flex-direction:row;
-    justify-content:left;
+    justify-content:center;
     width:100%;
 }
 #about section {
-    width:50%;
+    width:70%;
 }
 .about {
     color:whitesmoke;
 }
+
+.column {
+    float: left;
+    width: 25%;
+}
 #frazier, #nebraska, #hobbies, #books {
+    display:flex;
+    flex-wrap:wrap;
     width:25%;
-    flex-direction:row;
+    flex-direction:inline;
+    justify-content:center;
+ 
    
 }
 .details {
